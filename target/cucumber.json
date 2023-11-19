@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Success message is displaying after sent with email",
+        "description": "",
+        "id": "this-is-a-test-to-verify-subscribe-to-newsletter-functionality;verify-success-message-is-displaying-after-sent-with-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4322195500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch NEXTeTICKET \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 21
+                }
+              ],
+              "location": "STNL_NEXT.launch_NEXTeTICKET(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5489651000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll down till STNL Enter Email adress and click Send button",
+            "match": {
+              "location": "STNL_NEXT.scroll_down_till_STNL_Enter_Email_adress_and_click_Send_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2825182900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Success message is displaying after sent with email",
+            "match": {
+              "location": "STNL_NEXT.verify_Success_message_is_displaying_after_sent_with_email()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Next4"
+          }
+        ]
+      }
+    ],
+    "name": "This is a test to verify Subscribe To Newsletter functionality",
+    "description": "",
+    "id": "this-is-a-test-to-verify-subscribe-to-newsletter-functionality",
+    "keyword": "Feature",
+    "uri": "STNL.feature"
+  }
+]
